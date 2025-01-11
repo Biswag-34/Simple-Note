@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { ACCESS_TOKEN } from './constants.js';
+import { ACCESS_TOKEN } from "./constants";
 
 const apiUrl = window?.configs?.apiUrl ? window.configs.apiUrl : "/choreo-apis/npgb/backend-rjz/test-rest-endpoint-5c6/v1.0";
 
